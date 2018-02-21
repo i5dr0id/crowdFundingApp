@@ -3,7 +3,7 @@
 <div>
 <!-- welcome section -->
 <!--breadcumb start here-->
-<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="assets/images/background/about_us_bg.png">
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="static/images/background/about_us_bg.png">
 	<div class="xs-solid-overlay xs-bg-black"></div>
 	<div class="container">
 		<div class="fundpress-inner-welcome-content">
@@ -26,7 +26,7 @@
 					<h2 class="color-navy-blue">We are changing the way of making things possible.</h2>
 					<p>“FundPress is one of those platforms that gives you space to work with people who know you, love you, and support you.” </p>
 					<a href="#" class="xs-sign-logo">
-						<img src="assets/images/signature_logo.png" alt="Fundpress author sign">
+						<img src="static/images/signature_logo.png" alt="Fundpress author sign">
 					</a>
 				</div>
 				<!--  
@@ -38,7 +38,7 @@
 			</div>
 			<div class="col-md-12 col-lg-6">
 				<div class="fundpress-about-promo-image xs-box-shadow">
-					<img src="assets/images/about.jpg" alt="">
+					<img src="static/images/about.jpg" alt="">
 				</div>
 				<!-- 
 					fundpress-about-promo-image 
@@ -68,7 +68,7 @@
 		<div class="row">
 			<div class="col-md-10 col-sm-12 col-lg-6 content-center">
 				<div class="fundpress-popup-image xs-box-shadow">
-					<img src="assets/images/about_2.jpg" alt="">
+					<img src="static/images/about_2.jpg" alt="">
 					<div class="xs-popup-content icon-position-center">
 						<a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="xs-video-popup full-round icon-identify-btn green-btn xs-box-shadow xs-big-button"><i class="fa fa-play"></i></a>
 					</div>
@@ -112,7 +112,7 @@
 		<div class="row">
 			<div class="col-md-12 col-lg-6">
 				<div class="xs-box-shadow-2">
-					<img src="assets/images/happy_people.jpg" alt="" class="img-100">
+					<img src="static/images/happy_people.jpg" alt="" class="img-100">
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-6">
@@ -136,7 +136,7 @@
 </section>	<!-- about us side by side image version 1 end -->
 
 	<!-- about us side by side image version 2 -->
-	<section class="xs-bg xs-content-section-padding fundpress-text-with-image-side-by-side-2" style="background-image: url(assets/images/icons-background-1.png);">
+	<section class="xs-bg xs-content-section-padding fundpress-text-with-image-side-by-side-2" style="background-image: url(static/images/icons-background-1.png);">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-lg-6">
@@ -151,7 +151,7 @@
 			</div>
 			<div class="col-md-12 col-lg-6">
 				<div class="xs-box-shadow-2">
-					<img src="assets/images/heppy_people_2.jpg" class="img-100" alt="">
+					<img src="static/images/heppy_people_2.jpg" class="img-100" alt="">
 				</div>
 			</div>
 		</div>
@@ -175,7 +175,7 @@
 			<div class="col-md-3">
 				<div class="xs-box-shadow  fundpress-single-team-member">
 					<div class="fundpress-item-header ">
-						<img src="assets/images/avatar/team-1.jpg" alt="">
+						<img src="static/images/avatar/team-1.jpg" alt="">
 						<div class="xs-hover-content fundpress-hover-content text-center">
 							<ul class="xs-social-list fundpress-social-list xs-social-list-v2">
 								<li><a href="#" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
@@ -207,7 +207,7 @@
 			<div class="col-md-3">
 				<div class="xs-box-shadow  fundpress-single-team-member">
 					<div class="fundpress-item-header ">
-						<img src="assets/images/avatar/team-2.jpg" alt="">
+						<img src="static/images/avatar/team-2.jpg" alt="">
 						<div class="xs-hover-content fundpress-hover-content text-center">
 							<ul class="xs-social-list fundpress-social-list xs-social-list-v2">
 								<li><a href="#" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
@@ -239,7 +239,7 @@
 			<div class="col-md-3">
 				<div class="xs-box-shadow  fundpress-single-team-member">
 					<div class="fundpress-item-header ">
-						<img src="assets/images/avatar/team-3.jpg" alt="">
+						<img src="static/images/avatar/team-3.jpg" alt="">
 						<div class="xs-hover-content fundpress-hover-content text-center">
 							<ul class="xs-social-list fundpress-social-list xs-social-list-v2">
 								<li><a href="#" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
@@ -271,7 +271,7 @@
 			<div class="col-md-3">
 				<div class="xs-box-shadow  fundpress-single-team-member">
 					<div class="fundpress-item-header ">
-						<img src="assets/images/avatar/team-4.jpg" alt="">
+						<img src="static/images/avatar/team-4.jpg" alt="">
 						<div class="xs-hover-content fundpress-hover-content text-center">
 							<ul class="xs-social-list fundpress-social-list xs-social-list-v2">
 								<li><a href="#" class="color-facebook full-round"><i class="fa fa-facebook"></i></a></li>
@@ -311,13 +311,13 @@
 			<div class="xs-testimonial-item">
 				<blockquote class="xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote">
 					<span class="xs-blockquote-icon fundpress-blockquote-icon">
-						<img src="assets/images/quote-left.png" alt="">
+						<img src="static/images/quote-left.png" alt="">
 					</span>
 					" We are so glad that we made the switch to use FundPress this year and our results were fantastic. Our 8th Annual Race For Grace raised $457,000, which is a new record for us."
 				</blockquote><!-- xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote END -->
 				<div class="xs-spilit-container xs-testimonial-bio content-center width-70">
 					<div class="xs-avatar full-round fundpress-avatar-big">
-						<img src="assets/images/avatar/testimonial-1.jpg" alt="" class="xs-box-shadow-2">
+						<img src="static/images/avatar/testimonial-1.jpg" alt="" class="xs-box-shadow-2">
 					</div>
 					<div class="xs-item-footer fundpress-team-details fundpress-testimonial-details text-left">
 						<a href="#" class="color-navy-blue">
@@ -330,13 +330,13 @@
 			<div class="xs-testimonial-item">
 				<blockquote class="xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote">
 					<span class="xs-blockquote-icon fundpress-blockquote-icon">
-						<img src="assets/images/quote-left.png" alt="">
+						<img src="static/images/quote-left.png" alt="">
 					</span>
 					" We are so glad that we made the switch to use FundPress this year and our results were fantastic. Our 8th Annual Race For Grace raised $457,000, which is a new record for us."
 				</blockquote><!-- xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote END -->
 				<div class="xs-spilit-container xs-testimonial-bio content-center width-70">
 					<div class="xs-avatar full-round fundpress-avatar-big">
-						<img src="assets/images/avatar/testimonial-2.jpg" alt="" class="xs-box-shadow-2">
+						<img src="static/images/avatar/testimonial-2.jpg" alt="" class="xs-box-shadow-2">
 					</div>
 					<div class="xs-item-footer fundpress-team-details fundpress-testimonial-details text-left">
 						<a href="#" class="color-navy-blue">
@@ -349,13 +349,13 @@
 			<div class="xs-testimonial-item">
 				<blockquote class="xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote">
 					<span class="xs-blockquote-icon fundpress-blockquote-icon">
-						<img src="assets/images/quote-left.png" alt="">
+						<img src="static/images/quote-left.png" alt="">
 					</span>
 					" We are so glad that we made the switch to use FundPress this year and our results were fantastic. Our 8th Annual Race For Grace raised $457,000, which is a new record for us."
 				</blockquote><!-- xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote END -->
 				<div class="xs-spilit-container xs-testimonial-bio content-center width-70">
 					<div class="xs-avatar full-round fundpress-avatar-big">
-						<img src="assets/images/avatar/testimonial-3.jpg" alt="" class="xs-box-shadow-2">
+						<img src="static/images/avatar/testimonial-3.jpg" alt="" class="xs-box-shadow-2">
 					</div>
 					<div class="xs-item-footer fundpress-team-details fundpress-testimonial-details text-left">
 						<a href="#" class="color-navy-blue">
@@ -368,13 +368,13 @@
 			<div class="xs-testimonial-item">
 				<blockquote class="xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote">
 					<span class="xs-blockquote-icon fundpress-blockquote-icon">
-						<img src="assets/images/quote-left.png" alt="">
+						<img src="static/images/quote-left.png" alt="">
 					</span>
 					" We are so glad that we made the switch to use FundPress this year and our results were fantastic. Our 8th Annual Race For Grace raised $457,000, which is a new record for us."
 				</blockquote><!-- xs-blockquote bg-color-white xs-box-shadow xs-content-padding fundpress-blockquote END -->
 				<div class="xs-spilit-container xs-testimonial-bio content-center width-70">
 					<div class="xs-avatar full-round fundpress-avatar-big">
-						<img src="assets/images/avatar/testimonial-4.jpg" alt="" class="xs-box-shadow-2">
+						<img src="static/images/avatar/testimonial-4.jpg" alt="" class="xs-box-shadow-2">
 					</div>
 					<div class="xs-item-footer fundpress-team-details fundpress-testimonial-details text-left">
 						<a href="#" class="color-navy-blue">
@@ -390,7 +390,7 @@
 
 
 	<!-- sponsor section -->
-	<section class="xs-gray-bg xs-bg xs-section-padding fundpress-sponsor-section" style="background-image: url(assets/images/background/sponsor_section_bg.jpg);">
+	<section class="xs-gray-bg xs-bg xs-section-padding fundpress-sponsor-section" style="background-image: url(static/images/background/sponsor_section_bg.jpg);">
 	<div class="xs-solid-overlay xs-bg-white"></div>
 	<div class="container fundpress-partners-wraper">
 		<div class="fundpress-heading-title">
@@ -398,19 +398,19 @@
 		</div><!-- .xs-heading-title .fundpress-heading-title END -->
 		<div class="content-center">
 			<ul class="fundpress-partners">
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-1.png" alt=""></a></li>
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-2.png" alt=""></a></li>
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-3.png" alt=""></a></li>
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-4.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-1.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-2.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-3.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-4.png" alt=""></a></li>
 			</ul><!-- .fundpress-partners END -->
 		</div>
 		<div class="content-center">
 			<ul class="fundpress-partners">
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-5.png" alt=""></a></li>
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-6.png" alt=""></a></li>
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-7.png" alt=""></a></li>
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-8.png" alt=""></a></li>
-				<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-9.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-5.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-6.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-7.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-8.png" alt=""></a></li>
+				<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-9.png" alt=""></a></li>
 			</ul><!-- .fundpress-partners END -->
 		</div>
 	</div>

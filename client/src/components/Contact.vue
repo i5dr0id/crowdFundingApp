@@ -2,7 +2,7 @@
   <!-- welcome section -->
 <!--breadcumb start here-->
 <div>
-<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-2 parallax-window" data-parallax="scroll" data-image-src="assets/images/background/get_in_bg.jpg">
+<section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-2 parallax-window" data-parallax="scroll" data-image-src="static/images/background/get_in_bg.jpg">
 	<div class="xs-solid-overlay xs-bg-black"></div>
 	<div class="container">
 		<div class="fundpress-inner-welcome-content">
@@ -31,7 +31,7 @@
 							<div id="xs-multiple-map-1" class="xs-map"></div>
 						</div>
 						<div class="fundpress-window-back">
-							<img src="assets/images/contact/contact-info-img-1.png" alt="">
+							<img src="static/images/contact/contact-info-img-1.png" alt="">
 						</div>
 						<div class="fundpress-window-nav">
 							<a href="#" class="fundpress-window-opener">
@@ -55,7 +55,7 @@
 							<div id="xs-multiple-map-2" class="xs-map"></div>
 						</div>
 						<div class="fundpress-window-back">
-							<img src="assets/images/contact/contact-info-img-2.png" alt="">
+							<img src="static/images/contact/contact-info-img-2.png" alt="">
 						</div>
 						<div class="fundpress-window-nav">
 							<a href="#" class="fundpress-window-opener">
@@ -79,7 +79,7 @@
 							<div id="xs-multiple-map-3" class="xs-map"></div>
 						</div>
 						<div class="fundpress-window-back">
-							<img src="assets/images/contact/contact-info-img-3.png" alt="">
+							<img src="static/images/contact/contact-info-img-3.png" alt="">
 						</div>
 						<div class="fundpress-window-nav">
 							<a href="#" class="fundpress-window-opener">

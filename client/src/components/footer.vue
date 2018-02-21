@@ -7,7 +7,7 @@
 									<div class="fundpress-single-footer">
 										<div class="xs-footer-logo">
 											<a href="index-2.html">
-												<img src="assets/images/footer_logo.png" alt="">
+												<img src="static/images/footer_logo.png" alt="">
 											</a>
 										</div>
 										<div class="fundpress-footer-content">

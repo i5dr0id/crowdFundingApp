@@ -6,13 +6,13 @@
 					<div class="nav-header">
 						<div class="nav-toggle"></div>
 						<a class="nav-brand nav-logo" href="index-2.html">
-							<img src="assets/images/logo.png" alt="">
+							<img src="static/images/logo.png" alt="">
 						</a>
 					</div><!-- . END -->
 					<div class="nav-menus-wrapper">
 						<div class="xs-logo-wraper">
 							<a class="nav-brand xs-logo fundpress-logo-v1" href="index-2.html">
-								<img src="assets/images/logo.png" alt="">
+								<img src="static/images/logo.png" alt="">
 							</a>
 						</div>
 						<ul class="nav-menu">
@@ -24,7 +24,7 @@
 						<div class="xs-navs-button">
 							<ul class="xs-icon-with-text fundpress-icon-menu">
 								<li><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-unlock-alt color-green"></i>Log In</a></li>
-								<li><a class="nav-link"><router-link to="/add">Start Campaign</router-link></a></li>
+								<li><a class=" xs-btn round-btn green-btn"><router-link to="/add">Start Campaign</router-link></a></li>
 							</ul>
 						</div>
 					</div><!-- .nav-menus-wrapper END -->

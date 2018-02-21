@@ -1,6 +1,6 @@
 <template>
     <div>
-    <section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="assets/images/background/progress_bg.jpg">
+    <section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-1 parallax-window" data-parallax="scroll" data-image-src="static/images/background/progress_bg.jpg">
         <div class="xs-solid-overlay xs-bg-black"></div>
         <div class="container">
             <div class="fundpress-inner-welcome-content xs-inner-welcome-content">
@@ -36,7 +36,7 @@
                     <div class="xs-col-3-isotope-grid-item comics crafts">
                         <div class="fundpress-grid-item-content xs-mb-30">
                             <div class="xs-item-header fundpress-item-header">
-                                <img src="assets/images/product/products-1.jpg" alt="">
+                                <img src="static/images/product/products-1.jpg" alt="">
                                 <div class="xs-item-header-content">
                                     <div class="xs-skill-bar">
                                         <div class="xs-skill-track">
@@ -63,7 +63,7 @@
                     <div class="xs-col-3-isotope-grid-item fashion dance">
                         <div class="fundpress-grid-item-content xs-mb-30">
                             <div class="xs-item-header fundpress-item-header">
-                                <img src="assets/images/product/products-2.jpg" alt="">
+                                <img src="static/images/product/products-2.jpg" alt="">
                                 <div class="xs-item-header-content">
                                     <div class="xs-skill-bar">
                                         <div class="xs-skill-track">
@@ -90,7 +90,7 @@
                     <div class="xs-col-3-isotope-grid-item food music">
                         <div class="fundpress-grid-item-content xs-mb-30">
                             <div class="xs-item-header fundpress-item-header">
-                                <img src="assets/images/product/products-3.jpg" alt="">
+                                <img src="static/images/product/products-3.jpg" alt="">
                                 <div class="xs-item-header-content">
                                     <div class="xs-skill-bar">
                                         <div class="xs-skill-track">
@@ -117,7 +117,7 @@
                     <div class="xs-col-3-isotope-grid-item music journalism">
                         <div class="fundpress-grid-item-content xs-mb-30">
                             <div class="xs-item-header fundpress-item-header">
-                                <img src="assets/images/product/products-1.jpg" alt="">
+                                <img src="static/images/product/products-1.jpg" alt="">
                                 <div class="xs-item-header-content">
                                     <div class="xs-skill-bar">
                                         <div class="xs-skill-track">
@@ -144,7 +144,7 @@
                     <div class="xs-col-3-isotope-grid-item filandvideo games">
                         <div class="fundpress-grid-item-content xs-mb-30">
                             <div class="xs-item-header fundpress-item-header">
-                                <img src="assets/images/product/products-2.jpg" alt="">
+                                <img src="static/images/product/products-2.jpg" alt="">
                                 <div class="xs-item-header-content">
                                     <div class="xs-skill-bar">
                                         <div class="xs-skill-track">
@@ -171,7 +171,7 @@
                     <div class="xs-col-3-isotope-grid-item food fashion">
                         <div class="fundpress-grid-item-content xs-mb-30">
                             <div class="xs-item-header fundpress-item-header">
-                                <img src="assets/images/product/products-3.jpg" alt="">
+                                <img src="static/images/product/products-3.jpg" alt="">
                                 <div class="xs-item-header-content">
                                     <div class="xs-skill-bar">
                                         <div class="xs-skill-track">

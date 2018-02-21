@@ -3,7 +3,7 @@
     <!-- <h1>{{ msg }}</h1> -->
 	
 		<!-- welcome section -->
-		<section class="xs-screen-height xs-welcome-section xs-bg fundpress-welcome-section" style="background-image: url(assets/images/welcome-bg-back-overlay.png);">
+		<section class="xs-screen-height xs-welcome-section xs-bg fundpress-welcome-section" style="background-image: url(static/images/welcome-bg-back-overlay.png);">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
@@ -31,7 +31,7 @@
 					<div class="col-lg-6">
 						<div class="xs-welcome-content">
 							<div class="fundpress-animate text-center">
-								<img src="assets/images/welcome-robot.png" alt="">
+								<img src="static/images/welcome-robot.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -93,7 +93,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -120,7 +120,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -147,7 +147,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -178,7 +178,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -205,7 +205,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -232,7 +232,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -263,7 +263,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -290,7 +290,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -317,7 +317,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -348,7 +348,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -375,7 +375,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -402,7 +402,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -433,7 +433,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -460,7 +460,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -487,7 +487,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -518,7 +518,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -545,7 +545,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -572,7 +572,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -603,7 +603,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -630,7 +630,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -657,7 +657,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -688,7 +688,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -715,7 +715,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -742,7 +742,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -773,7 +773,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -800,7 +800,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -827,7 +827,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -858,7 +858,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-1.jpg" alt="">
+											<img src="static/images/product/products-1.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="65%">
 													<div class="xs-skill-track">
@@ -885,7 +885,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-2.jpg" alt="">
+											<img src="static/images/product/products-2.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="32%">
 													<div class="xs-skill-track">
@@ -912,7 +912,7 @@
 								<div class="col-lg-4">
 									<div class="fundpress-grid-item-content">
 										<div class="fundpress-item-header xs-mb-30">
-											<img src="assets/images/product/products-3.jpg" alt="">
+											<img src="static/images/product/products-3.jpg" alt="">
 											<div class="xs-item-header-content">
 												<div class="xs-skill-bar-v3" data-percent="80%">
 													<div class="xs-skill-track">
@@ -952,28 +952,28 @@
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-lg-3">
 						<div class="fundpress-icon-with-square-service">
-							<img src="assets/images/icon-1.png" alt="">
+							<img src="static/images/icon-1.png" alt="">
 							<a href="#" class="color-white">Free & Simple Setup. </a>
 							<p>Start fundraising in minutes.No goal requirements, no deadlines.  </p>
 						</div><!-- .fundpress-icon-with-square-service END -->
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-3">
 						<div class="fundpress-icon-with-square-service">
-							<img src="assets/images/icon-2.png" alt="">
+							<img src="static/images/icon-2.png" alt="">
 							<a href="#" class="color-white">Most Money Raised.</a>
 							<p>Join the millions who have raised more than $2 billion on FundPress.</p>
 						</div><!-- .fundpress-icon-with-square-service END -->
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-3">
 						<div class="fundpress-icon-with-square-service">
-							<img src="assets/images/icon-3.png" alt="">
+							<img src="static/images/icon-3.png" alt="">
 							<a href="#" class="color-white">Expert Advice, 24/7.</a>
 							<p>Our campaign coaches will answer your questions in 5 minutes, day or night.</p>
 						</div><!-- .fundpress-icon-with-square-service END -->
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-3">
 						<div class="fundpress-icon-with-square-service">
-							<img src="assets/images/icon-4.png" alt="">
+							<img src="static/images/icon-4.png" alt="">
 							<a href="#" class="color-white">Safety. Guaranteed.</a>
 							<p>The GoFundMe Guarantee protects your donations and supporters. </p>
 						</div><!-- .fundpress-icon-with-square-service END -->
@@ -1008,7 +1008,7 @@
 					<div class="col-lg-4">
 						<div class="xs-box-shadow fundpress-popular-item xs-bg-white">
 							<div class="fundpress-item-header">
-								<img src="assets/images/campaigns/campaigns-1.jpg" alt="">
+								<img src="static/images/campaigns/campaigns-1.jpg" alt="">
 								<div class="xs-item-header-content">
 									<div class="xs-skill-bar">
 										<div class="xs-skill-track">
@@ -1030,7 +1030,7 @@
 								<span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor"></span>
 								<div class="row xs-margin-0">
 									<div class="full-round fundpress-avatar">
-										<img src="assets/images/avatar/avatar_1.jpg" alt="">
+										<img src="static/images/avatar/avatar_1.jpg" alt="">
 									</div>
 									<div class="xs-avatar-title">
 										<a href="#"><span>By</span>Ema Watson</a>
@@ -1042,7 +1042,7 @@
 					<div class="col-lg-4">
 						<div class="xs-box-shadow fundpress-popular-item xs-bg-white">
 							<div class="fundpress-item-header">
-								<img src="assets/images/campaigns/campaigns-2.jpg" alt="">
+								<img src="static/images/campaigns/campaigns-2.jpg" alt="">
 								<div class="xs-item-header-content">
 									<div class="xs-skill-bar">
 										<div class="xs-skill-track">
@@ -1064,7 +1064,7 @@
 								<span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor"></span>
 								<div class="row xs-margin-0">
 									<div class="full-round fundpress-avatar">
-										<img src="assets/images/avatar/avatar_2.jpg" alt="">
+										<img src="static/images/avatar/avatar_2.jpg" alt="">
 									</div>
 									<div class="xs-avatar-title">
 										<a href="#"><span>By</span>Kene Williamson</a>
@@ -1076,7 +1076,7 @@
 					<div class="col-lg-4">
 						<div class="xs-box-shadow fundpress-popular-item xs-bg-white">
 							<div class="fundpress-item-header">
-								<img src="assets/images/campaigns/campaigns-3.jpg" alt="">
+								<img src="static/images/campaigns/campaigns-3.jpg" alt="">
 								<div class="xs-item-header-content">
 									<div class="xs-skill-bar">
 										<div class="xs-skill-track">
@@ -1099,7 +1099,7 @@
 								<span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor"></span>
 								<div class="row xs-margin-0">
 									<div class="full-round fundpress-avatar">
-										<img src="assets/images/avatar/avatar_3.jpg" alt="">
+										<img src="static/images/avatar/avatar_3.jpg" alt="">
 									</div>
 									<div class="xs-avatar-title">
 										<a href="#"><span>By</span>Leo Baddabes</a>
@@ -1111,7 +1111,7 @@
 					<div class="col-lg-4">
 						<div class="xs-box-shadow fundpress-popular-item xs-bg-white">
 							<div class="fundpress-item-header">
-								<img src="assets/images/campaigns/campaigns-4.jpg" alt="">
+								<img src="static/images/campaigns/campaigns-4.jpg" alt="">
 								<div class="xs-item-header-content">
 									<div class="xs-skill-bar">
 										<div class="xs-skill-track">
@@ -1134,7 +1134,7 @@
 								<span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor"></span>
 								<div class="row xs-margin-0">
 									<div class="full-round fundpress-avatar">
-										<img src="assets/images/avatar/avatar_4.jpg" alt="">
+										<img src="static/images/avatar/avatar_4.jpg" alt="">
 									</div>
 									<div class="xs-avatar-title">
 										<a href="#"><span>By</span>Jhung Li</a>
@@ -1146,7 +1146,7 @@
 					<div class="col-lg-4">
 						<div class="xs-box-shadow fundpress-popular-item xs-bg-white">
 							<div class="fundpress-item-header">
-								<img src="assets/images/campaigns/campaigns-5.jpg" alt="">
+								<img src="static/images/campaigns/campaigns-5.jpg" alt="">
 								<div class="xs-item-header-content">
 									<div class="xs-skill-bar">
 										<div class="xs-skill-track">
@@ -1168,7 +1168,7 @@
 								<span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor"></span>
 								<div class="row xs-margin-0">
 									<div class="full-round fundpress-avatar">
-										<img src="assets/images/avatar/avatar_5.jpg" alt="">
+										<img src="static/images/avatar/avatar_5.jpg" alt="">
 									</div>
 									<div class="xs-avatar-title">
 										<a href="#"><span>By</span>Chirstina Perry</a>
@@ -1180,7 +1180,7 @@
 					<div class="col-lg-4">
 						<div class="xs-box-shadow fundpress-popular-item xs-bg-white">
 							<div class="fundpress-item-header">
-								<img src="assets/images/campaigns/campaigns-6.jpg" alt="">
+								<img src="static/images/campaigns/campaigns-6.jpg" alt="">
 								<div class="xs-item-header-content">
 									<div class="xs-skill-bar">
 										<div class="xs-skill-track">
@@ -1202,7 +1202,7 @@
 								<span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor"></span>
 								<div class="row xs-margin-0">
 									<div class="full-round fundpress-avatar">
-										<img src="assets/images/avatar/avatar_6.jpg" alt="">
+										<img src="static/images/avatar/avatar_6.jpg" alt="">
 									</div>
 									<div class="xs-avatar-title">
 										<a href="#"><span>By</span>Prekina William</a>
@@ -1220,7 +1220,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12 col-lg-6 xs-padding-0">
-						<div class="fundpress-full-width-wraper-v2" style="background-image: url(assets/images/back_other_bg.jpg)">
+						<div class="fundpress-full-width-wraper-v2" style="background-image: url(static/images/back_other_bg.jpg)">
 							<div class="fundpress-product-hover-content-v2">
 								<div class="fundpress-sub-title">
 									<h2>Back Others</h2>
@@ -1236,7 +1236,7 @@
 						</div><!-- .fundpress-full-width-wraper-v2 END -->
 					</div>
 					<div class="col-md-12 col-lg-6 xs-padding-0">
-						<div class="fundpress-full-width-wraper-v2" style="background-image: url(assets/images/get_funded_bg.jpg)">
+						<div class="fundpress-full-width-wraper-v2" style="background-image: url(static/images/get_funded_bg.jpg)">
 							<div class="fundpress-product-hover-content-v2">
 								<div class="fundpress-sub-title">
 									<h2>Get Funded</h2>
@@ -1256,7 +1256,7 @@
 		</section><!-- End side by side product -->
 
 		<!-- event section -->
-		<section class="xs-bg fundpress-event-section xs-section-padding" style="background-image: url(assets/images/icons-background-1.png);">
+		<section class="xs-bg fundpress-event-section xs-section-padding" style="background-image: url(static/images/icons-background-1.png);">
 			<div class="container">
 				<div class="xs-section-heading row xs-margin-0">
 					<div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
@@ -1272,7 +1272,7 @@
 					<div class="fundpress-single-event-wraper row">
 						<div class="col-md-3">
 							<div class="fundpress-event-image">
-								<img src="assets/images/event/event-1.jpg" alt="">
+								<img src="static/images/event/event-1.jpg" alt="">
 							</div>
 						</div>
 						<div class="col-md-6 fundpress-event-details">
@@ -1289,7 +1289,7 @@
 					<div class="fundpress-single-event-wraper row">
 						<div class="col-md-3">
 							<div class="fundpress-event-image">
-								<img src="assets/images/event/event-2.jpg" alt="">
+								<img src="static/images/event/event-2.jpg" alt="">
 							</div>
 						</div>
 						<div class="col-md-6 fundpress-event-details">
@@ -1324,7 +1324,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4">
 						<div class="fundpress-grid-item-content xs-box-shadow fundpress-from-journal">
 							<div class="xs-item-header fundpress-item-header entry-thumbnail">
-								<img src="assets/images/journal/journal-1.jpg" alt="">
+								<img src="static/images/journal/journal-1.jpg" alt="">
 								<div class="xs-item-header-content">
 									<a href="#" class="full-round icon-identify-btn green-btn"><i class="fa fa-play"></i></a>
 								</div>
@@ -1350,7 +1350,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4">
 						<div class="fundpress-grid-item-content xs-box-shadow fundpress-from-journal">
 							<div class="xs-item-header fundpress-item-header entry-thumbnail">
-								<img src="assets/images/journal/journal-2.jpg" alt="">
+								<img src="static/images/journal/journal-2.jpg" alt="">
 								<div class="xs-item-header-content">
 									<a href="#" class="full-round icon-identify-btn green-btn"><i class="fa fa-image"></i></a>
 								</div>
@@ -1376,7 +1376,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4">
 						<div class="fundpress-grid-item-content xs-box-shadow fundpress-from-journal">
 							<div class="xs-item-header fundpress-item-header entry-thumbnail">
-								<img src="assets/images/journal/journal-3.jpg" alt="">
+								<img src="static/images/journal/journal-3.jpg" alt="">
 								<div class="xs-item-header-content">
 									<a href="#" class="full-round icon-identify-btn green-btn"><i class="fa fa-video-camera"></i></a>
 								</div>
@@ -1403,7 +1403,7 @@
 		</section><!-- End journal section -->
 
 		<!-- sponsor section -->
-		<section class="xs-bg xs-section-padding fundpress-sponsor-section" style="background-image: url(assets/images/background/sponsor_section_bg.jpg);">
+		<section class="xs-bg xs-section-padding fundpress-sponsor-section" style="background-image: url(static/images/background/sponsor_section_bg.jpg);">
 			<div class="xs-solid-overlay xs-bg-white"></div>
 			<div class="container fundpress-partners-wraper">
 				<div class="fundpress-heading-title">
@@ -1411,19 +1411,19 @@
 				</div><!-- .xs-heading-title .fundpress-heading-title END -->
 				<div class="content-center">
 					<ul class="fundpress-partners">
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-1.png" alt=""></a></li>
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-2.png" alt=""></a></li>
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-3.png" alt=""></a></li>
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-4.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-1.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-2.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-3.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-4.png" alt=""></a></li>
 					</ul><!-- .fundpress-partners END -->
 				</div>
 				<div class="content-center">
 					<ul class="fundpress-partners">
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-5.png" alt=""></a></li>
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-6.png" alt=""></a></li>
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-7.png" alt=""></a></li>
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-8.png" alt=""></a></li>
-						<li><a href="#" class="full-round fundpress-single-partner"><img src="assets/images/partner/partner-9.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-5.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-6.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-7.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-8.png" alt=""></a></li>
+						<li><a href="#" class="full-round fundpress-single-partner"><img src="static/images/partner/partner-9.png" alt=""></a></li>
 					</ul><!-- .fundpress-partners END -->
 				</div>
 			</div>
