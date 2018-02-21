@@ -16,10 +16,10 @@
 							</a>
 						</div>
 						<ul class="nav-menu">
-							<li><a class="nav-link"><router-link to="/">Home</router-link></a></li>
-							<li><a class="nav-link"><router-link to="/about">About</router-link></a></li>
-							<li><a class="nav-link"><router-link to="/blog">Blog</router-link></a></li>
-							<li><a class="nav-link"><router-link to="/contact">Contact</router-link></a></li>
+							<li><a class=""><router-link to="/">Home</router-link></a></li>
+							<li><a class=""><router-link to="/about">About</router-link></a></li>
+							<li><a class=""><router-link to="/blog">Blog</router-link></a></li>
+							<li><a class=""><router-link to="/contact">Contact</router-link></a></li>
 						</ul>
 						<div class="xs-navs-button">
 							<ul class="xs-icon-with-text fundpress-icon-menu">
@@ -36,12 +36,12 @@
 					<div class="fundpress-tab-nav-v5">
 						<ul class="nav nav-tabs" role="tablist">
 							<li class="nav-item">
-								<a class="nav-link active" href="#login" role="tab" data-toggle="tab"><router-link to="/login">Login</router-link>
+								<a class="" href="#login" role="tab" data-toggle="tab"><router-link to="/login">Login</router-link>
 									
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#signup" role="tab" data-toggle="tab"><router-link to="/register">SignUp</router-link>
+								<a class="" href="#signup" role="tab" data-toggle="tab"><router-link to="/register">SignUp</router-link>
 									
 								</a>
 							</li>
