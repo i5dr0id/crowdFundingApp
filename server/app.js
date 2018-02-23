@@ -10,7 +10,8 @@ var jwt = require('jsonwebtoken');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var poll = require('./routes/polls');
+// var poll = require('./routes/polls');
+var aspirants = require('./routes/aspirant');
 var votes = require('./routes/votes');
 var config = require('./config');
 
@@ -45,7 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/polls', poll);// poll route
+app.use('/aspirants', aspirants);// poll route
 app.use('/votes',votes);
 
 // catch 404 and forward to error handler
