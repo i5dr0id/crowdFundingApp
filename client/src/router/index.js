@@ -4,11 +4,13 @@ import HelloWorld from "@/components/HelloWorld";
 import Index from "@/components/Index";
 import Login from "@/components/Login";
 import Register from "@/components/Register";
+import Campaigns from "@/components/Campaigns"
 import CreateCampaigns from "@/components/CreateCampaigns";
 import EditCampaigns from "@/components/EditCampaigns";
 import CampaignProgress from "@/components/CampaignProgress";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import Test from "@/components/Test";
 
 
 
@@ -17,11 +19,6 @@ Vue.use(Router);
 export default new Router({
     routes: [{
             path: "/",
-            name: "Index",
-            component: Index
-        },
-        {
-            path: "/index",
             name: "Index",
             component: Index
         },
@@ -35,6 +32,11 @@ export default new Router({
             name: "Register",
             component: Register
         },
+		{
+		path: "/campaigns",
+		name: "Campaigns",
+		component: Campaigns
+		},
         {
             path: "/add",
             name: "CreateCampaigns",
@@ -59,6 +61,11 @@ export default new Router({
             path: "/about",
             name: "About",
             component: About
+        },
+        {
+            path: "/test",
+            name: "Test",
+            component: Test
         }
     ],
     mode: 'history'
