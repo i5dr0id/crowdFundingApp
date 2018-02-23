@@ -51,16 +51,16 @@
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane fadeInRights show fade in active" id="login">
 							<form action="#" method="POST" id="xs-login-form">
-								<div class="xs-input-group-v2">
+								<div class="xs-input-group-v2" :class="{'has-error': errors.has('username') }">
 									<i class="icon icon-profile-male"></i>
-									<input type="text" name="name" id="xs_user_login_name" class="xs-input-control" placeholder="Enter your username">
+									<input v-model="login.username" type="text" name="username" v-validate="'required|alpha_num|min:4'" id="xs_user_login_name" class="xs-input-control" placeholder="Enter your username">
 								</div>
-								<div class="xs-input-group-v2">
+								<div class="xs-input-group-v2" :class="{'has-error': errors.has('password') }">
 									<i class="icon icon-key2"></i>
-									<input type="password" name="name" id="xs_login_password" class="xs-input-control" placeholder="Enter your password">
+									<input v-model="login.password" type="password" name="password" id="xs_login_password" v-validate="'required'" class="xs-input-control" placeholder="Enter your password">
 								</div>
 								<div class="xs-submit-wraper xs-mb-20">
-									<input type="submit" name="submit" value="login now" id="xs_contact_get_action" class="btn btn-warning btn-block">
+									<input type="submit" name="submit" value="login now" id="xs_contact_get_action" class="btn btn-warning btn-block" @click.prevent="btnLogin" :disabled="!((fields.username && fields.username.valid) && (fields.password && fields.password.valid))">
 								</div>
 								<p class="xs-mb-20">or</p>
 								<div class="xs-submit-wraper xs-mb-20">
