@@ -24,7 +24,8 @@
 						<div class="xs-navs-button">
 							<ul class="xs-icon-with-text fundpress-icon-menu">
 								<li><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-unlock-alt color-green"></i>Log In</a></li>
-								<li><a class=" xs-btn round-btn green-btn"><router-link to="/add">Start Campaign</router-link></a></li>
+								<li><a class=" xs-btn round-btn green-btn" href="/campaigns"><router-link to="/campaigns">Start Campaign</router-link></a></li>
+								<!-- <li><a href="/campaigns" class=" xs-btn round-btn green-btn">Start Campaign</a></li> -->
 							</ul>
 						</div>
 					</div><!-- .nav-menus-wrapper END -->
