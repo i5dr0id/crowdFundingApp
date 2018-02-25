@@ -12,7 +12,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 // var poll = require('./routes/polls');
 var aspirants = require('./routes/aspirant');
-var votes = require('./routes/votes');
+var endorsements = require('./routes/endorsements');
 var config = require('./config');
 
 // connect to mongoDB with mongoose
@@ -47,7 +47,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/aspirants', aspirants);// poll route
-app.use('/votes',votes);
+app.use('/endorsements',endorsements);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

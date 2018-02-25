@@ -36,12 +36,12 @@ router.use(function (req, res, next) {
 router.post('/', function (req, res, next) {
     var data = req.body;
     console.log(data.username);
-    console.log("post data " + data);
+    console.log("post data " + JSON.stringify(data));
     UserService.addUser(data, function (err, user) {
         if (err) {
             return res.json({
                 'responseCode': '03',
-                'responseMessage': 'Error adding User'
+                'responseMessage': 'Error adding User, Fields might be empty'
             });
         }
 
@@ -51,7 +51,6 @@ router.post('/', function (req, res, next) {
                 'responseMessage': 'Successfully added a User'
             });
         }
-
         return res.json({
             'responseCode': '02',
             'responseMessage': 'User exists already'

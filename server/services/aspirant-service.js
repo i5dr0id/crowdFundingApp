@@ -31,6 +31,8 @@ AspirantService.addAspirant = function (data, next) {
         else {
             /*Add Aspirant to db*/
             var newAspirant = new Aspirant({
+                position: data.position,
+                user_id: data.id,
                 story: data.story,
                 social: data.social,
                 vision : data.vision,

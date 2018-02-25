@@ -29,6 +29,11 @@ UserService.addUser = function (data, next) {
         }
         else {
             /*Add user to db*/
+            // if( data.email == "" || data.password == ""){
+            //     return next(null, "field are empty");
+            // }
+            
+
             var newUser = new User({
                 username: data.username,
                 password: data.password,
@@ -73,5 +78,6 @@ UserService.deleteUser = function (id, next) {
         return next(err);
     });
 }
+
 
 module.exports = UserService;

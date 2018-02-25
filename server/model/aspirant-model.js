@@ -16,6 +16,8 @@ var UserAspirantSchema = new Schema({
         state: String,
         city: String,
         fund: String,
+        position: String,
+        user_id: String,
         social : [{
             type: String
         }]
