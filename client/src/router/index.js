@@ -1,15 +1,72 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Vue from "vue";
+import Router from "vue-router";
+import HelloWorld from "@/components/HelloWorld";
+import Index from "@/components/Index";
+import Login from "@/components/Login";
+import Register from "@/components/Register";
+import Campaigns from "@/components/Campaigns"
+import CreateCampaigns from "@/components/CreateCampaigns";
+import EditCampaigns from "@/components/EditCampaigns";
+import CampaignProgress from "@/components/CampaignProgress";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Test from "@/components/Test";
 
-Vue.use(Router)
+
+
+Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
-})
+    routes: [{
+            path: "/",
+            name: "Index",
+            component: Index
+        },
+        {
+            path: "/login",
+            name: "Login",
+            component: Login
+        },
+        {
+            path: "/Register",
+            name: "Register",
+            component: Register
+        },
+		{
+		path: "/campaigns",
+		name: "Campaigns",
+		component: Campaigns
+		},
+        {
+            path: "/add",
+            name: "CreateCampaigns",
+            component: CreateCampaigns
+        },
+        {
+            path: "/edit",
+            name: "EditCampaigns",
+            component: EditCampaigns
+        },
+        {
+            path: "/progress",
+            name: "CampaignProgress",
+            component: CampaignProgress
+        },
+        {
+            path: "/contact",
+            name: "Contact",
+            component: Contact
+        },
+        {
+            path: "/about",
+            name: "About",
+            component: About
+        },
+        {
+            path: "/test",
+            name: "Test",
+            component: Test
+        }
+    ],
+    mode: 'history'
+});
