@@ -5,5 +5,5 @@
 
 module.exports = {
     'secret': 'distinct',
-    'uri': 'mongodb://localhost/crowdfunding'
+    'uri': 'mongodb://mikoli:098765@ds247688.mlab.com:47688/crowdfund'
 }

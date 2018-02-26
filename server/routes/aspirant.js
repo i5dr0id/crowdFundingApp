@@ -38,6 +38,7 @@ router.post('/', function (req, res, next) {
     console.log(data);
     AspirantService.addAspirant(data, function (err, aspirants) {
         if (err) {
+            console.log(err)
             return res.json({
                 'responseCode': '03',
                 'responseMessage': 'Error adding Aspirant'
@@ -47,7 +48,7 @@ router.post('/', function (req, res, next) {
         if (aspirants) {
             return res.json({
                 'responseCode': '00',
-                'responseMessage': 'Successfully added a Aspirant'
+                'responseMessage': 'Successfully added a aspirant'
             });
         }
 
@@ -147,7 +148,7 @@ router.post('/', function (req, res, next) {
 
 router.get('/', function (req, res, next) {2
 
-    AspirantService.allAspirants(function (err, Aspirants) {
+    AspirantService.allAspirants(function (err, aspirants) {
         if (err) {
             return res.json({
                 'responseCode': '03',
@@ -155,11 +156,11 @@ router.get('/', function (req, res, next) {2
             });
         }
 
-        if (Aspirants) {
+        if (aspirants) {
             return res.json({
                 'responseCode': '00',
                 'responseMessage': 'Successfully fetched all Aspirants',
-                'Aspirants': Aspirants
+                'aspirants': aspirants
             });
         }
 
@@ -174,18 +175,18 @@ router.get('/', function (req, res, next) {2
 router.get('/:id', function (req, res, next) {
     var id = req.params.id;
     console.log(id);
-    AspirantService.findAspirant(id, function (err, Aspirant) {
+    AspirantService.findAspirant(id, function (err, aspirant) {
         if (err){
             return res.json({
                 'responseCode': '03',
                 'responseMessage': 'Error fetching Aspirant for user'
             });
         }
-        if (Aspirant) {
+        if (aspirant) {
             return res.json({
                 'responseCode': '00',
-                'responseMessage': 'Successfully fetched Aspirant for user',
-                'Aspirant': Aspirant
+                'responseMessage': 'Successfully fetched data for aspirant',
+                'aspirant': aspirant
             });
         } return res.json({
             'responseCode': '02',
