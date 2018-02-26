@@ -11,7 +11,7 @@ import CampaignProgress from "@/components/CampaignProgress";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Test from "@/components/Test";
-
+import CandidateProfile from "@/components/CandidateProfile";
 
 
 Vue.use(Router);
@@ -32,11 +32,16 @@ export default new Router({
             name: "Register",
             component: Register
         },
-		{
-		path: "/campaigns",
-		name: "Campaigns",
-		component: Campaigns
-		},
+        {
+        path: "/campaigns",
+        name: "Campaigns",
+        component: Campaigns
+        },
+        {
+        path: "/campaigns/:id",
+        name: "CandidateProfile",
+        component: CandidateProfile
+        },
         {
             path: "/add",
             name: "CreateCampaigns",

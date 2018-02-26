@@ -1,17 +1,17 @@
 <template>
-  
+
 		<header class="xs-header-height xs-menu-style-transparent xs-menu-style-border fundpress-header-main-version color-navy-blue">
 			<div class="container">
 				<nav class="xs-menus fundpress-menu">
 					<div class="nav-header">
 						<div class="nav-toggle"></div>
-						<a class="nav-brand nav-logo" href="index-2.html">
+						<a class="nav-brand nav-logo" href="/">
 							<img src="static/images/logo.png" alt="">
 						</a>
 					</div><!-- . END -->
 					<div class="nav-menus-wrapper">
 						<div class="xs-logo-wraper">
-							<a class="nav-brand xs-logo fundpress-logo-v1" href="index-2.html">
+							<a class="nav-brand xs-logo fundpress-logo-v1" href="/">
 								<img src="static/images/logo.png" alt="">
 							</a>
 						</div>
@@ -38,12 +38,12 @@
 						<ul class="nav nav-tabs" role="tablist">
 							<li class="nav-item">
 								<a class="" href="#login" role="tab" data-toggle="tab"><router-link to="/login">Login</router-link>
-									
+
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="" href="#signup" role="tab" data-toggle="tab"><router-link to="/register">SignUp</router-link>
-									
+
 								</a>
 							</li>
 						</ul>
@@ -108,5 +108,5 @@
 		</div>
 		</header>
 		<!-- header version inner menu closed -->
-        
+
 </template>
