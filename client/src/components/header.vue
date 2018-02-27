@@ -122,7 +122,7 @@
 								<input type="password" name="name" id="xs_register_repeat_pass" class="xs-input-control" placeholder="Enter your confirm password">
 							</div> -->
 							<div class="xs-submit-wraper xs-mb-20">
-								<button type="submit" name="submit" value="sign up" id="xs_register_get_action" class="btn btn-warning btn-block" v-on:click="signUpButton()">Sign Up</button>
+								<button type="submit" name="submit" value="sign up" id="xs_register_get_action" class="btn btn-warning btn-block" @click.prevent="signUpButton">Sign Up</button>
 							</div>
 							<!-- <p class="xs-mb-20">or</p>
 							<div class="xs-submit-wraper xs-mb-20">
@@ -143,6 +143,8 @@
 </template>
 
 <script>
+
+// import {Event} from '../main.js';
 
 	export default{
 		props: ["username"],
@@ -188,18 +190,16 @@
 						localStorage.setItem('username',response.data.user.username);
 						localStorage.setItem('id', response.data.user._id);
 
-						// Event.$emit('login', response.data.user);
-						// Event.$emit('id', response.data.user._id);
-						localStorage.setItem('loginuser', JSON.stringify(response.data.user));
+						Event.$emit('login', response.data.user);
+						Event.$emit('id', response.data.user._id);
+
 					
-						//  var data = JSON.parse(localStorage.getItem('loginuser'));
-						//  data.username
 						 
 
-						// this.$store.state.profile.username = response.data.user.username;
-						// this.$store.state.profile.email = response.data.user.email;
-						// this.$store.state.profile.name = response.data.user.fullname;
-						// this.$store.state.profile.id = response.data.user._id;
+						this.$store.state.profile.username = response.data.user.username;
+						this.$store.state.profile.email = response.data.user.email;
+						this.$store.state.profile.name = response.data.user.fullname;
+						this.$store.state.profile.id = response.data.user._id;
 
 
 
@@ -225,6 +225,7 @@
 			},
 
 			signUpButton(){
+				alert("i entered registered");
 				console.log('AFTER: ' + JSON.stringify(this.register));
 				this.axios.post('https://onepercent-crowdfund.herokuapp.com/users/', {
 				username: this.register.username,
@@ -243,8 +244,8 @@
 						  this.register.username = '';
 						  this.register.email    = '';
 						  this.register.password = '';
-
-						this.$router.push('/');
+						this.msg = "registration succesful";
+						window.location.reload(true);
 					
 					  }
 					  else if (code === '02') {
@@ -264,13 +265,18 @@
 				});	
 			},
 			logOutButton(){
-				alert("It worked ooo!!!!");
+				// alert("It worked ooo!!!!");
 				localStorage.clear();
 				this.msg="you are loggedOut";
-				setTimeout(function(){
-					window.location.reload(true);
-				}, 3000);
+				window.location.reload(true);
+			
 				 
+			},
+			onUser(){
+				Event.$on('loggedInUser', (user) =>{
+					this.username = user;
+					console.log(user);
+				})
 			}
 			
 		},
@@ -297,7 +303,7 @@
       this.user = '';
 	});
 
-	Event.$on("id", () => {
+Event.$on("id", () => {
       // logout event
       this.active.id = $event._id;
     });
@@ -306,6 +312,7 @@
   },
 
   created() {
+	//   this.onUser();
     let token = localStorage.getItem("token");
     this.user = localStorage.getItem("username");
 
