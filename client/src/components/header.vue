@@ -96,6 +96,8 @@
 						</form>
 					</div><!-- tab-pane -->
 					<div role="tabpanel" class="tab-pane fadeInRights fade" id="signup">
+										{{ msg }}
+								<i  v-show="loading" class="fa fa-spinner fa-spin"></i>
 						<form action="#" method="POST" id="xs-register-form"  name="registerForm">
 							<div class="xs-input-group-v2" :class="{'has-error': errors.has('fullname') }">
 								<i class="icon icon-profile-male"></i>
@@ -193,24 +195,24 @@
 						Event.$emit('login', response.data.user);
 						Event.$emit('id', response.data.user._id);
 
-					
+					this.login.username = '';
+						this.login.password = '';
+						console.log("username ======== : " + response.data.user.username);
+						this.loading = false;
+						this.msg = "login successfully";
+						setTimeout(function(){
+							window.location.reload(true);
+						}, 3000);
 						 
 
 						this.$store.state.profile.username = response.data.user.username;
-						this.$store.state.profile.email = response.data.user.email;
+						// this.$store.state.profile.email = response.data.user.email;
 						this.$store.state.profile.name = response.data.user.fullname;
 						this.$store.state.profile.id = response.data.user._id;
 
 
 
-						this.login.username = '';
-						this.login.password = '';
-						console.log("username : " + response.data.user.username);
-						this.loading = false;
-						this.msg = "login successfully";
-						setTimeout(function(){
-							window.location.reload(true);
-						}, 3000);				
+										
 					}
 					else {
 
@@ -238,14 +240,16 @@
 					console.log(token);
 					  console.log('code code', response.data.responseCode);
 					  if(code === '00') {
-						  console.log(token);
-						  localStorage.setItem('token', token);
-						  this.register.fullname = '';
-						  this.register.username = '';
-						  this.register.email    = '';
-						  this.register.password = '';
+						console.log(token);
+						localStorage.setItem('token', token);
+						this.register.fullname = '';
+						this.register.username = '';
+						this.register.email    = '';
+						this.register.password = '';
 						this.msg = "registration succesful";
 						window.location.reload(true);
+						
+						
 					
 					  }
 					  else if (code === '02') {
@@ -303,7 +307,7 @@
       this.user = '';
 	});
 
-Event.$on("id", () => {
+	Event.$on("id", () => {
       // logout event
       this.active.id = $event._id;
     });
