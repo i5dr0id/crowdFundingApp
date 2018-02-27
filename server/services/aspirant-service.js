@@ -3,7 +3,7 @@ var Aspirant = require('../model/aspirant-model').Aspirant;
 var AspirantService = {};
 
 AspirantService.authenticateAspirant = function (aspirant_story, next) {
-    Aspirant.findOne({ aspirant_story: aspirant_story }, function (err, aspirant) {
+    Aspirant.findOne({ story: aspirant_story }, function (err, aspirant) {
         return next(err, aspirant);
     });
 }
@@ -18,7 +18,7 @@ AspirantService.findAspirant = function (id, next) {
 
 AspirantService.addAspirant = function (data, next) {
 
-    this.authenticateAspirant(data.aspirant_story, function (err, aspirant) {
+    this.authenticateAspirant(data.story, function (err, aspirant) {
         if (err) {
             console.log('Encountered error when searching if Aspirant is in the db already');
             return next(err, null);
@@ -31,11 +31,23 @@ AspirantService.addAspirant = function (data, next) {
         else {
             /*Add Aspirant to db*/
             var newAspirant = new Aspirant({
-                aspirant_story: data.story,
-                aspirant_endorsements: data.endorsements,
-                aspirant_social_link: data.options,
-                aspirant_mission_statement : data.mission
-                aspirant_manifesto_video: data.video
+                position: data.position,
+                user_id: data.id,
+                story: data.story,
+                social: data.social,
+                vision : data.vision,
+                video: data.video,
+                image: data.image,
+                email: data.email,
+                firstname: data.firstname,
+                lastname: data.lastname,
+                gender: data.gender,
+                social: data.social,
+                alias: data.alias,
+                party: data.party,
+                state: data.state,
+                city:data.city,
+                fund: data.fund
             });
 
             newAspirant.save(function (err, aspirant) {
