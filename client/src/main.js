@@ -7,6 +7,14 @@ import VueAxios from 'vue-axios'
 import axios from 'axios'
 import VeeValidate from 'vee-validate'
 
+import VueHtml5Editor from 'vue-html5-editor'
+Vue.use(VueHtml5Editor,{
+
+});
+
+
+
+
 Vue.use(VeeValidate);
 Vue.use(VueAxios, axios)
 

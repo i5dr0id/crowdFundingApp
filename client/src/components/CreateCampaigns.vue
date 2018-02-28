@@ -118,8 +118,14 @@
             </div>
             <div class="form-group">
               <label for="exampleTextarea">Story</label>
-              <textarea class="form-control" v-model="story" id="exampleTextarea" rows="3"></textarea>
+               <!-- <textarea class="form-control" v-model="story" id="exampleTextarea" rows="3"></textarea> -->
+                       <!-- <div> -->
+                <!-- <froala :tag="'textarea'" :config="config" v-model="model"></froala>  -->
+
+              <vue-html5-editor v-model="story" :content="content" :height="500"></vue-html5-editor>
+            <!-- </div> -->
             </div>
+
           </div>
           <!--  -->
           <div class="card card-body bg-light">
@@ -137,6 +143,7 @@
           </div>
           <button type="submit" v-on:click="addCampaign" class="btn btn-success ">CREATE</button>
         </form>
+
       </div>
     </div>
   </div>
@@ -146,6 +153,7 @@
     name: "createCam",
     data() {
       return {
+        content: 'scweca',
         fname: '',
         lname: '',
         alias: '',
