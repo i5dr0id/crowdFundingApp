@@ -41,20 +41,20 @@
               <div class="crowdpac-page__support-buttons">
                 <p class="hidden-phone">
                   <a href="#" class="btn btn-primary btn-extralarge btn-block btn-donate-now btn-standard-size-on-tablet js-open-default-donate-modal"
-                    data-mixpanel-event="candidate.fund-campaign.donate"> Donate &#8358;100 </a>
+                    data-mixpanel-event="candidate.fund-campaign.donate" data-toggle="modal" data-target="#exampleModalLong"> Donate &#8358;100 </a>
                 </p>
                 <div class=" d-flex flex-row justify-content-between row-fluid hidden-phone">
                   <div class="span3">
                     <a href="#" class="btn btn-secondary btn-large btn-medium-font btn-block btn-donate-now btn-standard-size-on-tablet u-tt-none"
-                      data-mixpanel-event="crowdpac.landing-donate.donate"> &#8358;250 </a>
+                      data-mixpanel-event="crowdpac.landing-donate.donate" data-toggle="modal" data-target="#exampleModalLong"> &#8358;250 </a>
                   </div>
                   <div class="span3">
                     <a href="#" class="btn btn-secondary btn-large btn-medium-font btn-block btn-donate-now btn-standard-size-on-tablet u-tt-none"
-                      data-mixpanel-event="crowdpac.landing-donate.donate"> &#8358;500 </a>
+                      data-mixpanel-event="crowdpac.landing-donate.donate" data-toggle="modal" data-target="#exampleModalLong"> &#8358;500 </a>
                   </div>
                   <div class="span3">
                     <a href="#" class="btn btn-secondary btn-large btn-medium-font btn-block btn-donate-now btn-standard-size-on-tablet u-tt-none"
-                      data-mixpanel-event="crowdpac.landing-donate.donate"> &#8358;1500 </a>
+                      data-mixpanel-event="crowdpac.landing-donate.donate" data-toggle="modal" data-target="#exampleModalLong"> &#8358;1500 </a>
                   </div>
                   <div class="span3">
                     <a href="#" class="btn btn-secondary btn-large btn-medium-font btn-block btn-donate-now btn-standard-size-on-tablet u-tt-none"
@@ -92,7 +92,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">ENDOSMENTS
-                  <span>40</span>
+                  <span>{{items.length}}</span>
                 </a>
               </li>
             </ul>
@@ -127,7 +127,7 @@
                 <div class="edose">
                   <h3 class="h3" style="padding: 3%;">Endorse this campaigns and tell us why</h3>
                   <div class=".endose-div">
-                    <form>
+                    <form v-on:submit="addEndorsment">
                       <div class="form-row">
                         <div class="col-md-6 mb-6">
                           <label for="">Full name: </label>
@@ -135,19 +135,19 @@
                             required> </div>
                         <div class="col-md-6 mb-6">
                           <label for="">Email: </label>
-                          <input type="text" v-model="email" class="form-control" id="ln" placeholder="email"
+                          <input type="text" v-model="email" class="form-control" id="emailEnd" placeholder="email"
                             required> </div>
                       </div>
                       <br>
                       <div class="form-row">
                         <div class="col-md-12">
-                      <textarea class="form-control" placeholder="Tell us why" style="margin-top: 0px; margin-bottom: 0px; height: 145px; width:100%;"></textarea>
+                      <textarea class="form-control" v-model="endorsmentMsg" placeholder="Tell us why" style="margin-top: 0px; margin-bottom: 0px; height: 145px; width:100%;"></textarea>
                       </div>
                       </div>
                       <!-- <button></button> -->
                       <br>
-                      <button type="submit" class="btn btn-success btn-endose" style="float:right;">
-                        </i> ENDORSE</button>
+                      <button type="submit" v-on:click="addEndorsment" class="btn btn-success btn-endose" style="float:right;">
+                       ENDORSE</button>
                     </form>
                   </div>
                 </div>
@@ -155,11 +155,11 @@
                 <hr>
                 <div>
                   <ul>
-                    <li>
-                      <div><h3><strong>name</strong></h3></div>
+                    <li v-for="(item, key) in items">
+                      <div><h3><strong>{{item.name}}</strong></h3></div>
                       <div>
                         <h6>
-                          ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias
+                          {{ item.message}}
                         </h6>
                       </div>
                       <hr>
@@ -184,7 +184,7 @@
 <!--========================== MODAL ========================== -->
 
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" style="max-width: 400px;">
+			<div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
 				<div class="modal-content">
 					<div class="modal-header" style="margin: 0 auto">
 						<h3 class="text-center" style="font-size: 24px;margin-top: 20px;margin-bottom: 10px;font-family: inherit;font-weight: 500;line-height: 1.1;color: inherit;">Donate to
@@ -196,25 +196,53 @@
 					<div class="modal-body">
 						<form method="POST" action="/login" style="padding: 30px">
 							<div class="form-group">
-									<label>Email: </label>
-								<input type="text" name="email" class="form-control input-lg" placeholder="Email" autocomplete="off" style="border-radius:0;"> </div>
-							<div class="form-group">
-								<label>Password: </label>
-								<input type="password" name="password" class="form-control input-lg" placeholder="Password" autocomplete="off" style="border-radius:0;"> </div>
-							<br>
-							<div class="form-group checkbox checkbox-primary">
-								<input type="checkbox"> Remember Me </div>
-							<div class="form-group">
-								<button type="submit" value="register" name="register" class="btn btn-block btn-lg" style="color:#fff;background-color:#05296b;">Login</button>
+							          <div class="card card-body bg-light">
+            <h4>Basic Info</h4>
+            <div class="form-row">
+              <div class="col-md-6 mb-6">
+                <label for="">First name</label>
+                <input type="text" v-model="fname" class="form-control" id="fullname" placeholder="First name"
+                  required> </div>
+              <div class="col-md-6 mb-6">
+                <label for="">Last name</label>
+                <input type="text" v-model="lname" class="form-control" id="ln" placeholder="Last name"
+                  required> </div>
+            </div>
+            <!-- Alias Email row -->
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Alias</label>
+                <input type="text" v-model="alias" class="form-control" id="inputAlias" placeholder="Alias"> </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" v-model="email" class="form-control" id="inputEmail4" placeholder="Email"> </div>
+            </div>
+            <!-- Gender Political row -->
+            <!-- <div class="card card-body"> -->
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputGender">Gender</label>
+                <select id="inputGender" v-model="gender" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor"> </div>
+            </div>
+            <!-- </div> -->
+            <br>
+            <br>
+          </div>
+          <div class="form-row btn-donate">
+            <div class="form-group col-md-12">
+								<button type="submit" value="register" name="register" class="btn btn-block btn-lg" style="color:#fff;background-color:#05296b;">Donate</button>
+            </div>
+            </div>
 							</div>
 						</form>
-					</div>
-					<div>
-						<p class="form-footer text-center">Don't have an account?
-							<span>
-								<a href="/join">Register Here </a>
-							</span>
-						</p>
 					</div>
 				</div>
 			</div>
@@ -243,6 +271,7 @@ export default {
       email: "",
       firstname: "",
       lastname: "",
+      lname: "",
       gender: "",
       alias: "",
       party: "",
@@ -250,10 +279,33 @@ export default {
       city: "",
       fund: "",
       facebook: "",
-      twitter: ""
+      twitter: "",
+      items: [
+        {name: "israel", message: "I endorse you"},
+        {name: "Tomi", message: "I Comfirm you"},
+        {name: "Ibrahim", message: "I Vote you"},
+      ],
+      fname: "",
+      email: "",
+      endorsmentMsg: "",
+      candidate: "",
+      donation: ""
     };
   },
-  methods: {},
+
+  computed: {
+
+  },
+
+  methods: {
+    addEndorsment: function(e) {
+        // this.items = {name: this.fname, message: this.endorsmentMsg}
+        this.items.name = this.fname;
+        this.items.message = this.endorsmentMsg;
+        // this.item.endorsmentMsg = this.endorsmentMsg;
+        e.preventDefault();
+      }
+  },
   mounted() {
     this.api =
       "https://onepercent-crowdfund.herokuapp.com/aspirants/" +
@@ -679,5 +731,9 @@ img {
 }
 .span4 {
   padding-top: 20px;
+}
+
+.btn-donate {
+  padding-top: 3%;
 }
 </style>

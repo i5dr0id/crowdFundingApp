@@ -55,6 +55,10 @@
       }
     },
     methods: {
+
+      addEndorsment: function() {
+        // items
+      }
       // getJokes: function() {
       // 	this.loading = true;
       // 	axios.get("http://api.icndb.com/jokes/random/10")
