@@ -153,7 +153,8 @@
     name: "createCam",
     data() {
       return {
-        content: 'scweca',
+        id: '',
+        content: '',
         fname: '',
         lname: '',
         alias: '',
@@ -184,7 +185,10 @@
     methods: {
       addCampaign(e) {
         console.log('CREATE CLICKED');
-        this.data = {
+        this.id = localStorage.getItem("id");
+        console.log(localStorage.getItem("id"))
+        this.dataCam = {
+          'user_id': this.id,
           'story': this.story,
           'firstname': this.fname,
           'lastname': this.lname,
@@ -193,14 +197,15 @@
           'state': this.state,
           'city': this.city,
           'social': [this.facbook, this.twitter],
-          'vision': this.vision, //add
+          'vision': this.vision, 
           'video': this.video,
           'alias': this.alias,
           'party': this.polparty,
           'fund': this.fund,
-          'image': this.image
+          'image': this.image,
+          'position': this.office
         }
-        this.axios.post('https://onepercent-crowdfund.herokuapp.com/aspirants/', this.data).then(response => {
+        this.axios.post('https://onepercent-crowdfund.herokuapp.com/aspirants/', this.dataCam).then(response => {
           if (response.data.responseCode === "00") {
             alert(response.data.responseMessage);
           }
@@ -227,6 +232,11 @@
           console.log(error);
         });
       }
+    },
+
+    mounted() {
+      // console.log('THIS IS THE USED ID: ')
+      // console.log(localStorage.getItem("id"))
     }
   };
 

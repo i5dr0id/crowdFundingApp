@@ -10,7 +10,7 @@ import EditCampaigns from "@/components/EditCampaigns";
 import CampaignProgress from "@/components/CampaignProgress";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
-import Test from "@/components/Test";
+import Donation from "@/components/Donation";
 import CandidateProfile from "@/components/CandidateProfile";
 
 
@@ -68,9 +68,9 @@ export default new Router({
             component: About
         },
         {
-            path: "/test",
-            name: "Test",
-            component: Test
+            path: "/donation",
+            name: "Donation",
+            component: Donation
         }
     ],
     mode: 'history'

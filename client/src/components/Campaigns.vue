@@ -45,34 +45,30 @@
     name: "Campaigns",
     data() {
       return {
+        id: '',
+        token: '',
         alias: '',
         fund: '',
         items: [],
         jokes: [],
-        api: 'https://onepercent-crowdfund.herokuapp.com/aspirants/',
+        api: 'https://onepercent-crowdfund.herokuapp.com/aspirants/all/',
         // onCam: {},
         loading: false
       }
     },
     methods: {
-
-      addEndorsment: function() {
-        // items
-      }
-      // getJokes: function() {
-      // 	this.loading = true;
-      // 	axios.get("http://api.icndb.com/jokes/random/10")
-      // 		.then((response) => {
-      // 			this.loading = false;
-      // 			this.jokes = response.data.value;
-      // 		}, (error) => {
-      // 			this.loading = false;
-      // 		})
-      // }
     },
     created: function () {
-      console.log('CREATEDED');
-      this.axios.get(this.api).then(response => {
+      this.id = localStorage.getItem("id")
+      this.token = localStorage.getItem("token");
+      console.log("TOKEN RE")
+      console.log({"TOKEN":this.token});
+      this.api = 'https://onepercent-crowdfund.herokuapp.com/aspirants/all/'+this.id;
+      let config = {
+        "x-access-token": this.token ,
+        "Content-Type": "application/json"
+      }
+      this.axios.get(this.api, config).then(response => {
         let onCam = response.data.aspirants
         this.items = response.data.aspirants
         console.log(response.data.aspirants);
