@@ -36,12 +36,12 @@ router.use(function (req, res, next) {
 router.post('/', function (req, res, next) {
     var data = req.body;
     console.log(data.username);
-    console.log("post data " + data);
+    console.log("post data " + JSON.stringify(data));
     UserService.addUser(data, function (err, user) {
         if (err) {
             return res.json({
                 'responseCode': '03',
-                'responseMessage': 'Error adding User'
+                'responseMessage': 'Error adding User, Fields might be empty'
             });
         }
 
@@ -51,7 +51,6 @@ router.post('/', function (req, res, next) {
                 'responseMessage': 'Successfully added a User'
             });
         }
-
         return res.json({
             'responseCode': '02',
             'responseMessage': 'User exists already'
@@ -88,7 +87,8 @@ router.post('/authenticate', function (req, res, next) {
                     expiresIn: 1440 // expires in 24 hours
                 });
 
-                // return the information including token as JSON
+                // return the information including token as JSON]
+                req.session = user;
                 res.json({
                     responseCode: "00",
                     responseMessage: "Authentication Successful",
@@ -239,6 +239,25 @@ router.delete('/:id', function (req, res, next) {
             'responseMessage': 'Successfully deleted User'
         });
     });
+})
+
+router.post('/logout', function(req,res,next){
+    var sess = req.session;
+    console.log("Hello");
+    console.log(sess)
+    if(sess){
+        req.session = null;
+        return res.json({
+            'success': true, 
+            "message": "user logout successfully"
+        });
+    }else{
+        return res.json({
+            'success': false, 
+            "message": "Error Loggin user out"
+        });
+    }
+   
 })
 
 module.exports = router;

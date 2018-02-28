@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  
     <!-- <h1>{{ msg }}</h1> -->
-	
+	<div>
 		<!-- welcome section -->
 		<section class="xs-screen-height xs-welcome-section xs-bg fundpress-welcome-section" style="background-image: url(static/images/welcome-bg-back-overlay.png);">
 			<div class="container">
@@ -44,34 +44,34 @@
 			<div class="container">
 				<div class="xs-section-heading row xs-margin-0">
 					<div class="fundpress-heading-title xs-padding-0 col-md-9 col-xl-9">
-						<h2 class="color-navy-blue">Big of small your cause matters</h2>
+						<h2 class="color-navy-blue">We are Here To Help you Achieve Yur Dreams</h2>
 						<span class="xs-separetor dashed-separetor fundpress-separetor"></span>
-						<p>Fundpress site thoughtfully designed for real humans which means the best user experience for your entire community of donors, fundraisers, customers, and staff.</p>
+						<p>CrowdFund site thoughtfully designed for real humans which means the best user experience for your entire community of donors, fundraisers, customers, and staff.</p>
 					</div><!-- .fundpress-heading-title .xs-col-9 END -->
 					<div class="xs-btn-wraper xs-padding-0 col-xl-3 col-md-3 d-flex-center-end">
-						<a href="progress.html" class="xs-btn round-btn navy-blue-btn">all Projects</a>
+						<a href="progress.html" class="xs-btn round-btn navy-blue-btn">all Campaigns</a>
 					</div><!-- .xs-btn-wraper .xs-col-3 .d-flex-center-end END -->
 				</div><!-- .xs-section-heading .fundpress-section-heading .xs-spilit-container END -->
 				<div class="xs-tab-wraper fundpress-tab-wraper">
 					<div class="fundpress-tab-nav xs-tab-nav">
 						<ul class="nav nav-tabs" role="tablist">
 							<li class="nav-item">
-								<a class="nav-link active" href="#comics" role="tab" data-toggle="tab">Comics</a>
+								<a class="nav-link active" href="#comics" role="tab" data-toggle="tab">Local</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#crafts" role="tab" data-toggle="tab">Crafts</a>
+								<a class="nav-link" href="#crafts" role="tab" data-toggle="tab">District</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#dance" role="tab" data-toggle="tab">Dance</a>
+								<a class="nav-link" href="#dance" role="tab" data-toggle="tab">State</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#design" role="tab" data-toggle="tab">Design</a>
+								<a class="nav-link" href="#design" role="tab" data-toggle="tab">Social</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#fashion" role="tab" data-toggle="tab">Fashion</a>
+								<a class="nav-link" href="#fashion" role="tab" data-toggle="tab">Educational</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#food" role="tab" data-toggle="tab">Food</a>
+								<a class="nav-link" href="#food" role="tab" data-toggle="tab">Relief</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#games" role="tab" data-toggle="tab">Games</a>
@@ -1427,18 +1427,9 @@
 					</ul><!-- .fundpress-partners END -->
 				</div>
 			</div>
-		</section><!-- End sponsor section -->
-
-
-		
-
-				
-
+		</section><!-- End sponsor section -->			
 <!-- Mirrored from demo.xpeedstudio.com/html/fundpress/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Feb 2018 22:34:15 GMT -->
-
-
-   
-  </div>
+	</div>
 </template>
 
 <script>

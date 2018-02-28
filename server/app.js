@@ -8,12 +8,13 @@ var mongoose = require("mongoose");
 var cors = require("cors");
 var jwt = require("jsonwebtoken");
 
-var index = require("./routes/index");
-var users = require("./routes/users");
-var poll = require("./routes/polls");
-var votes = require("./routes/votes");
-var config = require("./config");
-var history = require("connect-history-api-fallback"); //i5dr0id
+var index = require('./routes/index');
+var users = require('./routes/users');
+// var poll = require('./routes/polls');
+var aspirants = require('./routes/aspirant');
+var endorsements = require('./routes/endorsements');
+var config = require('./config');
+
 
 // connect to mongoDB with mongoose
 var promise = mongoose.connect(config.uri, { useMongoClient: true }, function(
@@ -44,11 +45,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/", index);
-app.use("/users", users);
-app.use("/polls", poll); // poll route
-app.use("/votes", votes);
-app.use(history()); // for handling vueJS HTML5 History Mode
+app.use('/', index);
+app.use('/users', users);
+app.use('/aspirants', aspirants);// poll route
+app.use('/endorsements',endorsements);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
