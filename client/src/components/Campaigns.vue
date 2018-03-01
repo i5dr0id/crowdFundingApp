@@ -2,9 +2,13 @@
   <div id="campaigns" class="container">
     <div class="main container">
       <h1 class="page-header text-center"> Manage Campaigns </h1>
-      <div class="text-center">
+
+      <h4 class="page-header text-center" v-show="items.length"> you have no active campaigns</h4>
+
+      <div class="text-center btn-cnc">
         <a href="/add" class="btn btn-primary">Create New Campaign</a>
       </div>
+
       <div class="section" v-for="(item, key) in items">
         <div>
           <h3 class="al">
@@ -68,13 +72,16 @@
         "x-access-token": this.token ,
         "Content-Type": "application/json"
       }
-      this.axios.get(this.api, config).then(response => {
-        let onCam = response.data.aspirants
-        this.items = response.data.aspirants
-        console.log(response.data.aspirants);
+      this.axios.get(this.api, {headers: {
+        "x-access-token" : this.token,
+        "Content-Type" : "application/json"
+      }}).then(response => {
+        // let onCam = response.data.aspirants
+        this.items = response.data.aspirant;
+        // console.log(response.data.aspirant);
         // console.log(onCam[1].aspirant_endorsements.length);
         // onCam.forEach(function(element){
-        //   console.log(element);
+          // console.log(element);
         // });
         // this.alias = onCam[5].alias;
         // this.fund = onCam[5].fund;
@@ -106,4 +113,7 @@
     /* border: ipx solid red; */
   }
 
+.btn-cnc {
+  padding-top: 3%;
+}
 </style>

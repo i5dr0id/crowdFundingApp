@@ -188,7 +188,7 @@
         this.id = localStorage.getItem("id");
         console.log(localStorage.getItem("id"))
         this.dataCam = {
-          'user_id': this.id,
+          'id': this.id,
           'story': this.story,
           'firstname': this.fname,
           'lastname': this.lname,
@@ -197,7 +197,7 @@
           'state': this.state,
           'city': this.city,
           'social': [this.facbook, this.twitter],
-          'vision': this.vision, 
+          'vision': this.vision,
           'video': this.video,
           'alias': this.alias,
           'party': this.polparty,
@@ -206,6 +206,7 @@
           'position': this.office
         }
         this.axios.post('https://onepercent-crowdfund.herokuapp.com/aspirants/', this.dataCam).then(response => {
+          console.log(response.data)
           if (response.data.responseCode === "00") {
             alert(response.data.responseMessage);
           }
